@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+
+body
+{
+    background-color:#111
+}
+
+h1.mheader
+{
+    font-family: 'Amaranth', sans-serif;
+    background: -webkit-linear-gradient(rgb(248, 244, 0),rgb(235, 74, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+.mbutton
+{
+    margin-top: 100px;
+}
+a
+{
+    background-color:rgba(145, 46, 0, 0.7);
+    color: rgb(255, 245, 101);
+    padding: 20px 50px;
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+a:hover
+{
+    background-color: rgb(235, 74, 0);
+    color: #111;
+}

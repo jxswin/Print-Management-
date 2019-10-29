@@ -1,0 +1,221 @@
+*
+{
+	margin : 0;
+	padding : 0;
+}
+
+label span
+{
+    color: white;
+    font-size: 35px;
+}
+
+header
+{
+	background-image : linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(user.jpg) ;
+	height : 100%;
+	width: 100%;
+	background-position : center;
+	background-size : cover;
+}
+
+h1
+{
+    font-family: inherit;
+    color: floralwhite;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.row
+{	
+	background-size: 30px;
+}
+
+.jbar
+{
+	margin-top: 10px;
+	position: absolute;
+	height: 3%;
+	width: 80%;
+	top: 15%;
+	left: 10%;
+	margin-bottom: 10px;
+}
+	
+
+.jnav
+{
+	list-style-type: none;
+	float: right;
+	color: white;
+}
+
+.homenav
+{
+    list-style-type: none;
+    float: right ;
+}
+
+.jnav li
+{
+	display: inline-block;
+	margin-left: 15px;
+	font-size: 25px;
+}
+
+.jnav li a
+{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	transition: hover;
+	background: none;
+}
+
+.homenav li
+{
+	margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 150px;
+    font-size: 25px;
+    
+}
+
+.jnav li a:hover
+{
+	color: dimgray;
+	transition: all 0.2s ease-in;
+}
+
+.homenav li a:hover{
+    color: dimgray;
+    transition: all 0.2s ease-in;
+}
+
+.homenav li a.active
+{
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+    transition: hover;
+}
+
+
+.homenav li a 
+{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    transition: hover;
+}
+
+h2
+{
+	color: white;
+	left: 10%;
+	font-size: 40px;
+}
+
+.add_j
+{
+	display: none;
+	background: white;
+	cursor: move;
+}
+
+.a_job
+{
+	padding: 10px;
+}
+
+label
+{
+	margin-top: 10px;
+}
+
+.a_job input
+{
+	width: 100%;
+	padding: 15px;
+	border: none;
+	background: #f1f1f1;
+}
+
+	
+
+#submit
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.8;
+}
+
+#submit:hover{
+		opacity: 1;
+}
+
+#cancel
+{
+	background-color: red;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.8;
+}
+
+#cancel:hover{
+	opacity: 1;
+}
+
+#djlist
+{
+	display: block;
+	background: white;
+	color: white;
+	width : 10%;
+}
+
+#submit1
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 90%;
+	left: 5%;
+	opacity: 0.8;
+}
+
+#submit1:hover{
+		opacity: 1;
+}
+
+#cancel1
+{
+	background-color: red;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 90%;
+	left: 5%;	
+	opacity: 0.8;
+}
+
+#cancel1:hover{
+	opacity: 1;
+}
+
+
+

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Amaranth|Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+/*
+font-family: 'Sigmar One', cursive;
+font-family: 'Amaranth', sans-serif;
+font-family: 'Baloo Bhai', cursive;
+
+*/
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1.mheader
+{
+    font-family: 'Amaranth', sans-serif;
+    background: -webkit-linear-gradient(rgb(248, 244, 0),rgb(235, 74, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 45px;
+    padding-top: 20px;
+}
+
+
+h1.signup
+{
+    padding-top: 20px;
+    background: -webkit-linear-gradient(rgb(255, 14, 74),rgb(255, 94, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Amaranth', sans-serif;
+    color: ghostwhite;
+    font-size: 30px;
+}
+
+
+span.reqd
+{
+    color: red;
+}
+
+label
+{
+    margin-top: 10px;
+    width: 20%;
+    font-size: 20px;
+    padding-left: 30px;
+}
+span
+{
+    color: rgb(134, 108, 51);
+    font-family: helvetica;
+    margin-bottom: 20px;
+}
+/*
+.row
+{
+    background-color: rgb(25, 42, 88, 0.2);
+    margin: auto;
+}
+
+.homenav ul {
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+.homenav li {
+  float: right;
+  font-size: 35px;
+}
+
+.homenav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.homenav li a:hover {
+  background-color: rgb(12, 17, 94);
+}
+*/
+body
+{
+    background-color: #111;
+    
+}
+
+form
+{
+    background-color: #222;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 0px;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.submit
+{
+   
+    margin-bottom: 5px;
+    width:50%;
+    padding: 5px 40px;
+    border-radius: 4px;
+    background-color: rgba(145, 46, 0, 0.7);
+    color: rgb(255, 245, 101);
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+}   
+
+.submit:hover
+{
+    background-color: rgb(235, 74, 0);
+    color: #111;
+}
+
+input
+{
+     width: 80%;
+    overflow: hidden;
+    padding: 10px 20px;
+    margin: 10px 5px; 
+	border: none;
+	outline: none;
+    border-bottom: 3px solid #f1f1f1;
+    background: none;
+    color: white;
+    font-size: 18px;
+ 
+
+}
+a{
+    color: rgb(231, 178, 64);
+}

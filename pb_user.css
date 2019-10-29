@@ -1,0 +1,120 @@
+*
+{
+	margin : 0;
+	padding : 0;
+}
+
+
+header
+{
+	background-image : linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(user.jpg) ;
+	height : 100%;
+	width: 100%;
+	background-position : center;
+	background-size : cover;
+}
+
+h1
+{
+    font-family: inherit;
+    color: floralwhite;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+
+.row
+{	
+	background-size: 30px;
+}
+
+
+.homenav
+{
+    list-style-type: none;
+    float: right ;
+}
+.homenav li
+{
+	margin-top: 10px;
+    display: inline-block;
+    margin-left: 10px;
+    width: 150px;
+    font-size: 25px;
+    
+}
+
+.homenav li a:hover{
+    color: dimgray;
+    transition: all 0.2s ease-in;
+}
+
+.homenav li a.active
+{
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+    transition: hover;
+}
+
+
+.homenav li a 
+{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    transition: hover;
+}
+
+h2
+{
+	color: white;
+	font-size: 40px;
+}
+
+.rform
+{
+	display: none;
+	position: fixed;
+	top: 30%;
+	left: 30%;
+	width: 40%;
+	height: 30%;
+	background-color: white;
+}
+
+#submit
+{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	opacity: 0.8;
+	bottom: 2%;
+}
+
+#submit:hover{
+		opacity: 1;
+}
+
+#cancel
+{
+	background-color: red;
+	color: white;
+	padding: 16px 20px;
+	border: none;
+	cursor: pointer;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%
+	opacity: 0.8;
+}
+
+#cancel:hover{
+	opacity: 1;
+}
